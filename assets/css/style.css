@@ -1090,6 +1090,11 @@ header.header-area {
 .sing-f img{
     height: 130px;
 }
+.copyright-text a img {
+    width: 35px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
 /* Tablet desktop :768px. */
 @media (min-width: 320px) and (max-width: 991px) {
     .main-menu a{
