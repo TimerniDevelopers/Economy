@@ -1080,20 +1080,36 @@ header.header-area {
     color: #282828;
     margin-left: 20px;
 }
+.copyright-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
 .copyright-text a,
-.copyright-text {
+.copyright-text p{
     font-size: 17px;
     color: #282828;
     font-family: "Arial Black", sans-serif;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .sing-f img{
     height: 130px;
 }
 .copyright-text a img {
     width: 35px;
-    margin-left: 4px;
     vertical-align: middle;
+}
+.copyright-text p span{
+    font-size: 16px;
+}
+.copyright-text  .vr {
+    width: 2.3px;
+    min-height: 1.4em;
+    opacity: 1;
 }
 /* Tablet desktop :768px. */
 @media (min-width: 320px) and (max-width: 991px) {
